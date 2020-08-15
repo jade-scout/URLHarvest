@@ -10,7 +10,7 @@ both files and URLs leading to webpages.
 
 `python urlharvest.py <target> [-options]`
 
-<target> can either be a webpage URL or a HTML/HTM/XML file
+*target* can either be a webpage URL or a HTML/HTM/XML file
 on the local machine.
 
 #### Options:
