@@ -10,21 +10,22 @@ both files and URLs leading to webpages.
 
 `python urlharvest.py <target> [-options]`
 
-*<target>* can either be a webpage URL or a HTML/HTM/XML file
+<target> can either be a webpage URL or a HTML/HTM/XML file
 on the local machine.
 
-## Options:
+#### Options:
 
 * [-a][--all]       = Print all URLs found.
 * [-k][--keystring] = Print only the URLs or those URLs whose attributes
-                     contain KEYSTRING.
+                      contain KEYSTRING.
 * [-l][--limit]     = Limit the number of URLs that will be printed.
-                     Default is 200.
+                      Default is 200.
 * [-p][--print]     = Print URLHarvest's output to a file.
 
 ### Technical Information
 
 Platform (tested): Windows 10
+
 Python Version:    3.6
 
 ### Disclaimer
