@@ -8,18 +8,19 @@ both files and URLs leading to webpages.
 
 ### Syntax
 
-`python urlharvest.py <target> [-options]
+`python urlharvest.py <target> [-options]`
 
 *<target>* can either be a webpage URL or a HTML/HTM/XML file
 on the local machine.
 
 ## Options:
-*[-a][--all]       = Print all URLs found.
-*[-k][--keystring] = Print only the URLs or those URLs whose attributes
+
+* [-a][--all]       = Print all URLs found.
+* [-k][--keystring] = Print only the URLs or those URLs whose attributes
                      contain KEYSTRING.
-*[-l][--limit]     = Limit the number of URLs that will be printed.
+* [-l][--limit]     = Limit the number of URLs that will be printed.
                      Default is 200.
-*[-p][--print]     = Print URLHarvest's output to a file.
+* [-p][--print]     = Print URLHarvest's output to a file.
 
 ### Technical Information
 
